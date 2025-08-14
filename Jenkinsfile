@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone GitHub Repo') {
             steps {
-                git branch: 'main', credentialsId: 'github-https', url: 'https://github.com/BalajiNaidu05/pipelining_pythonApp.git'
+                git branch: 'main', credentialsId: 'github-https', url: 'https://github.com/BalajiNaidu05/piplining_pythonApp.git'
             }
         }
 
@@ -27,6 +27,7 @@ pipeline {
         }
     }
 }
+
 
 
 
